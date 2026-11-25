@@ -1,99 +1,171 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
     <title>Portfolio – Ethan Gernot</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#Accueil">Accueil</a></li>
-                <li><a href="#Education">Éducation</a></li>
-                <li><a href="#Experience">Expérience</a></li>
-                <li><a href="#Information">Informations</a></li>
-                <li><a href="#Reseaux">Réseaux</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="#Accueil">Accueil</a></li>
+          <li><a href="#Education">Éducation</a></li>
+          <li><a href="#Experience">Expérience</a></li>
+          <li><a href="#Information">Informations</a></li>
+          <li><a href="#Reseaux">Réseaux</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section id="Accueil">
-            <div class="carte">
+      <section id="Accueil">
+        <div class="carte">
+          <img src="img/pdp_compress.jpg" alt="Photo de profil" class="photo" />
+          <h1>Ethan Gernot</h1>
+          <p class="texte">06/09/2008</p>
+        </div>
+      </section>
 
-                <img src="img/pdp_compress.jpg" alt="Photo de profil" class="photo">
-                <h1>Ethan Gernot</h1>
-                <p class="texte"> 06/09/2008</p>
-                
+      <section id="Education">
+        <h2>Éducation</h2>
+        <div class="bloc">
+          <div class="liste">
+            <div class="titre">Mon parcours</div>
+            <div class="ligne">
+              <div>
+                <strong>Lycée :</strong><br />
+                <p>Gustave Eiffel : 3 ans options maths et NSI</p>
+              </div>
             </div>
-        </section>
+            <div class="ligne">
+              <div>
+                <strong>Prepa</strong><br />
+                <p>Prepa intégrer a Junia en ISEN 1</p>
+              </div>
+            </div>
+            <div class="ligne">
+              <div>
+                <strong>A venir</strong><br />
+                <p>Continuez a Junia en tant qu'alternant</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bloc">
+          <div class="images">
+            <div class="image">
+              <span>
+                <img src="img/eiffel.png" alt="Logo du lycée de gustave eiffel" />
+              </span>
+            </div>
+            <div class="image">
+                <span>
+                    <img src="img/junia.jpg" alt="logo de junia avec des etudiantss" />
+            </span></div>
+          </div>
+        </div>
+      </section>
 
-        <section id="Education">
-            <h2>Éducation</h2>
-            <div class="bloc">
-                <div class="liste">
-                    <div class="titre">Mon parcours</div>
-                    <div class="ligne"><div><strong></strong><br><p></p></div></div>
-                    <div class="ligne"><div><strong></strong><br><p></p></div></div>
-                    <div class="ligne"><div><strong></strong><br><p></p></div></div>
-                </div>
+      <section id="Experience">
+        <h2>Expérience</h2>
+        <div class="bloc">
+          <div class="images">
+            <div class="image large"><span>
+                <img src="img/NeoGear.png" alt="Site de NeoGear">
+            </span></div>
+          </div>
+        </div>
+        <div class="bloc">
+          <div class="liste">
+            <div class="titre">Projets</div>
+            <div class="ligne">
+              <div>
+                <strong>NeoGear</strong><br />
+                <p>Projet de site web de boutique de gaming réaliser en Terminale. Fait avec du html du css et un peu de java script
+                </p>
+              </div>
             </div>
-            <div class="bloc">
-                <div class="images">
-                    <div class="image"><span></span></div>
-                    <div class="image"><span></span></div>
-                    <div class="image"><span></span></div>
-                </div>
+            <div class="ligne">
+              <div>
+                <strong>Pong web</strong><br />
+                <p>Un jeu de pong revisité avec colision et touche fonctionnel sur un canva jouable en local en solo</p>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <section id="Experience">
-            <h2>Expérience</h2>
-            <div class="bloc">
-                <div class="images">
-                    <div class="image large"><span></span></div>
-                </div>
+      <section id="Information">
+        <h2>Informations</h2>
+        <div class="bloc">
+          <div class="liste">
+            <div class="titre">Compétences</div>
+            <div class="ligne">
+              <span class="icone"
+                ><i class="fa-solid fa-square-root-variable"></i
+              ></span>
+              <div>
+                <strong></strong><br />
+                <p></p>
+              </div>
             </div>
-            <div class="bloc">
-                <div class="liste">
-                    <div class="titre">Projets</div>
-                    <div class="ligne"><div><strong></strong><br><p></p></div></div>
-                    <div class="ligne"><div><strong></strong><br><p></p></div></div>
-                    <div class="ligne"><div><strong></strong><br><p></p></div></div>
-                </div>
+            <div class="ligne">
+              <span class="icone"><i class="fa-brands fa-python"></i></span>
+              <div>
+                <strong></strong><br />
+                <p></p>
+              </div>
             </div>
-        </section>
-
-        <section id="Information">
-            <h2>Informations</h2>
-            <div class="bloc">
-                <div class="liste">
-                    <div class="titre">Compétences</div>
-                    <div class="ligne"><span class="icone"><i class="fa-solid fa-square-root-variable"></i></span><div><strong></strong><br><p></p></div></div>
-                    <div class="ligne"><span class="icone"><i class="fa-brands fa-python"></i></span><div><strong></strong><br><p></p></div></div>
-                    <div class="ligne"><span class="icone"><i class="fa-brands fa-html5"></i></span><div><strong></strong><br><p></p></div></div>
-                </div>
+            <div class="ligne">
+              <span class="icone"><i class="fa-brands fa-html5"></i></span>
+              <div>
+                <strong></strong><br />
+                <p></p>
+              </div>
             </div>
-            <div class="bloc">
-                <div class="images">
-                    <div class="image"><span></span></div>
-                    <div class="image"><span></span></div>
-                    <div class="image"><span></span></div>
-                </div>
-            </div>
-        </section>
+          </div>
+        </div>
+        <div class="bloc">
+          <div class="images">
+            <div class="image"><span></span></div>
+            <div class="image"><span></span></div>
+            <div class="image"><span></span></div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <p>&copy; Portfolio Ethan GERNOT 2026</p>
-        <div id="Reseaux">
-            <a href="https://www.instagram.com/ethan_gernot_/?hl=fr" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://youtu.be/Aq5WXmQQooo?si=T8-ZAOb6RZ5TUDXl" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
-            <a href="https://x.com/X?s=20" target="_blank" rel="noopener" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
-        </div>
+      <p>&copy; Portfolio Ethan GERNOT 2026</p>
+      <div id="Reseaux">
+        <a
+          href="https://www.instagram.com/ethan_gernot_/?hl=fr"
+          target="_blank"
+          rel="noopener"
+          aria-label="Instagram"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://youtu.be/Aq5WXmQQooo?si=T8-ZAOb6RZ5TUDXl"
+          target="_blank"
+          rel="noopener"
+          aria-label="YouTube"
+          ><i class="fa-brands fa-youtube"></i
+        ></a>
+        <a
+          href="https://x.com/X?s=20"
+          target="_blank"
+          rel="noopener"
+          aria-label="X"
+          ><i class="fa-brands fa-x-twitter"></i
+        ></a>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
